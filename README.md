@@ -11,4 +11,5 @@ GoIP1 GoIP4 GoIP8 sms-gateway CLI API for Zabbix SMS alerting
 
 1. Put *.py files in _alertscripts_ folder, as you configure in zabbix-server.conf
 2. In Zabbix menu Adinistration-> Media types create script item with path smsgw.py
-3. In Administration -> Actions create an Action using your script.
+3. In Administration -> Actions create an Action using your script
+4. You need to autostart _smsgw.py_ in daemon mode(without args) at every boot
