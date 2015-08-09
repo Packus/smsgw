@@ -2,9 +2,9 @@
 # config.py
 conf = {
 	'sms_gw_host':'GOIP_IPADDRESS OR DNS',
-  'sms_gw_user':'GOIP_admin',
-  'sms_gw_passwd':'GOIP_PASSWORD',
-  'daemon_loop_timeout':7,
+  	'sms_gw_user':'GOIP_admin',
+  	'sms_gw_passwd':'GOIP_PASSWORD',
+  	'daemon_loop_timeout':7,
 	'db_engine':'mysql',
 	'db_user':'zabbix',
 	'db_passwd':'zabbix',
